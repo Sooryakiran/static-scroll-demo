@@ -152,9 +152,9 @@ const App = () => {
       <StaticScroll updateScroll={(x) => setSlide5(Math.round(x * 2))}>
         <div className='h-100 w-100 d-flex center'>
           <div className='signalparent'>
-            <div style={{ opacity: (slide5 == 0) ? "1" : "0.3" }} className='redsignal'></div>
-            <div style={{ opacity: (slide5 == 1) ? "1" : "0.3" }} className='yellowsignal'></div>
-            <div style={{ opacity: (slide5 == 2) ? "1" : "0.3" }} className='greensignal'></div>
+            <div style={{ opacity: (slide5 === 0) ? "1" : "0.3" }} className='redsignal'></div>
+            <div style={{ opacity: (slide5 === 1) ? "1" : "0.3" }} className='yellowsignal'></div>
+            <div style={{ opacity: (slide5 === 2) ? "1" : "0.3" }} className='greensignal'></div>
           </div>
           <div>
             <center>
@@ -173,9 +173,9 @@ const App = () => {
       <StaticScroll updateScroll={(x) => setSlide(Math.round(x * 2))}>
         <div className='h-100 w-100 d-flex center'>
           <div className='signalparent'>
-            <div style={{ opacity: (slide == 0) ? "1" : "0.3" }} className='redsignal'></div>
-            <div style={{ opacity: (slide == 1) ? "1" : "0.3" }} className='yellowsignal'></div>
-            <div style={{ opacity: (slide == 2) ? "1" : "0.3" }} className='greensignal'></div>
+            <div style={{ opacity: (slide === 0) ? "1" : "0.3" }} className='redsignal'></div>
+            <div style={{ opacity: (slide === 1) ? "1" : "0.3" }} className='yellowsignal'></div>
+            <div style={{ opacity: (slide === 2) ? "1" : "0.3" }} className='greensignal'></div>
           </div>
           <div>
             <center>
