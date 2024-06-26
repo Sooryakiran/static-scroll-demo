@@ -150,7 +150,7 @@ const App = () => {
       </StaticScroll>
 
       <StaticScroll updateScroll={(x) => setSlide5(Math.round(x * 2))}>
-        <div className='h-100 w-100 d-flex center'>
+        <div className='h-100 w-100 d-flex center wiking'>
           <div className='signalparent'>
             <div style={{ opacity: (slide5 === 0) ? "1" : "0.3" }} className='redsignal'></div>
             <div style={{ opacity: (slide5 === 1) ? "1" : "0.3" }} className='yellowsignal'></div>
@@ -218,6 +218,11 @@ npm install static-scroll
 `}
               </code>
             </pre>
+          </div>
+          <div className='mt'>
+            <a href="https://www.npmjs.com/package/static-scroll">npm website</a><br></br>
+            <a href="https://github.com/Sooryakiran/static-scroll">conttribute on github</a>
+
           </div>
         </div>
       </StaticScroll>

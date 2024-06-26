@@ -23,7 +23,9 @@ code {
 }
 
 .red {
-  background-color: salmon;
+  /* background-color: salmon; */
+  background: linear-gradient(to bottom left, salmon, deeppink);
+
 }
 
 .d-flex {
@@ -41,7 +43,7 @@ code {
 }
 
 .blue {
-  background-color: deepskyblue;
+  background: linear-gradient(to bottom right, deepskyblue, indigo);
 }
 
 .relative {
@@ -66,11 +68,18 @@ code {
 }
 
 .gray {
-  background-color: slategray;
+  background: linear-gradient(to bottom left, #16BFFD, #CB3066);
+
 }
 
 .purple {
-  background-color: lightpink;
+  background: linear-gradient(to bottom right, #f7ff00, #db36a4);
+
+}
+
+.wiking {
+  background: linear-gradient(to bottom left, #673AB7, #8DC26F);
+
 }
 
 .signalparent {
@@ -132,4 +141,8 @@ code {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+
+.mt {
+  margin-top: 3em;
 }
